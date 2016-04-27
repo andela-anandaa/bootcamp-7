@@ -15,8 +15,8 @@ people = [
             ("Betty", 45)
             ]
 
-for name, age in people:
-    print hello(anme, age)
+# for name, age in people:
+#     print hello(anme, age)
 
 # use of unpacking
 
