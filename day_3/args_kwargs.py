@@ -51,17 +51,19 @@ def hello_again(**kwargs):
 print hello_again(name='Joe', age=20)
 print hello_again(age=20, name='Jane')
 
+joe = {'name': 'Joe', 'age': 98}
+
+print hello_again(**joe)
+print hello_again(name='Joe', age=98)
+
 other_people = [
         {'name': 'Joe', 'age': 98},
         {'name': 'Jane', 'age': 60},
         {'name': 'Trump', 'age': 23}
     ]
 
-joe = {'name': 'Joe', 'age': 98}
-
-print hello_again(**joe)
-print hello_again(name='Joe', age=98)
-
+for person in other_people:
+    hello_again(**person)
 
 
 
