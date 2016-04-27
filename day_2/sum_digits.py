@@ -1,5 +1,5 @@
 
-def sum_digits(A):
+def sum_digits_recursion(A):
     '''
     Takes a list A, and returns
     the sum of all the digits in the
@@ -20,3 +20,10 @@ def sum_digits(A):
 # test your code
 
 print sum_digits([10, 30, 45])
+
+def sum_digits(A):
+    total = 0
+    for x in "".join([str(i) for i in a]):
+        total += int(x)
+
+    return total

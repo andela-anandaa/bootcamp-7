@@ -1,0 +1,26 @@
+TODAY:
+
+- Data types
+- Data Structures: tuples, 
+- *args, **kwargs
+- OOP: class, inheritance (sub-class/super-class,
+class vars vs. instance vars) 
+- importing modules
+- Code Katas: Andelabs, Codility, HR, CJ, etc.
+- Udacity: Intro to CS, in the next 1 month
+
+
+
+
+
+{
+    'name': 'Joe',
+    'langs': ['C++', 'JS', 'Python'],
+    'location': {
+        'lon': 89.90,
+        'lat': 90,
+        'means':  {
+            'type': 'flight',
+            'cost': '$ 200.00'
+    }
+}
