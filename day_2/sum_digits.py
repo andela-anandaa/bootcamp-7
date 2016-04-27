@@ -7,7 +7,7 @@ def sum_digits(A):
     1 + 0 + 3 + 0 + 4 + 5 = 13
     '''
     def sub(n):
-        if n < 1:
+        if n < 10:
             return n
         return sub(n % 10) + sub(n / 10)
 
